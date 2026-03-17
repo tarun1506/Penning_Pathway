@@ -1,0 +1,93 @@
+.nav-main {
+  height: 100px !important;
+}
+
+.monospace {
+  font-family: "Lucida Console", Courier, monospace !important;
+}
+.nav-div li {
+  display: inline !important;
+  text-align: center !important;
+  font-size: 1.5rem !important;
+  font-family: Times, "Times New Roman", Georgia, serif !important;
+}
+.nav-div li a {
+  color: black !important;
+  text-decoration: none !important;
+  padding: 10px 15px !important;
+  position: relative !important;
+}
+
+.nav-div li a:hover {
+  color: black !important;
+  background-color: #d68218 !important;
+  border-radius: 5px !important;
+}
+
+.logout-btn {
+  height: 1.5em !important;
+  width: 1.5em !important;
+}
+
+.logout-btn:hover {
+  cursor: pointer !important;
+}
+
+@media (min-width: 320px) and (max-width: 760px) {
+  .navbar-nav{
+    flex-direction: row !important;
+    margin-right: 85px !important;
+  }
+  .nav-div li a {
+    color: black !important;
+    text-decoration: none !important;
+    padding: 5px 10px !important;
+    position: relative !important;
+    font-size: 0.7rem;
+}
+
+  .responsive-edit{
+    display: flex !important;
+    flex-direction: column !important;
+    font-size: 0.5rem;
+    margin-top: -35px !important;
+  }
+
+  .res-edit{
+    margin-top: -45px !important;
+    margin-left: 95px !important;
+  }
+
+  .logout-btn{
+    height: 1rem !important;
+    width: 1rem !important; 
+  }
+
+  .logo-container{
+    margin-top: 2px !important;
+  }
+}
+
+@media (min-width:768px) and (max-width: 1020px){
+  .navbar-nav{
+    flex-direction: row !important;
+    margin-right: 150px !important;
+  }
+  .responsive-edit{
+    display: flex !important;
+    justify-content: center !important;
+    flex-direction: row !important;
+    font-size: 0.5rem;
+    margin-top: -35px !important;
+  }
+
+  .res-edit{
+    margin-top: -45px !important;
+    margin-left: 95px !important;
+  }
+
+  .logout-btn{
+    height: 2rem !important;
+    width: 2rem !important; 
+  }
+}

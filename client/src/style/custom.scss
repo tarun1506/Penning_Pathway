@@ -1,0 +1,7 @@
+/* make the customizations */
+$theme-colors: (
+  "pp": #e6b474,
+);
+
+/* import bootstrap to set changes */
+@import "~bootstrap/scss/bootstrap";

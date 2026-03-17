@@ -1,0 +1,1 @@
+export const EXT_API_URL = 'https://olato-quotes.p.rapidapi.com/motivation?quotes=random%20quotes'

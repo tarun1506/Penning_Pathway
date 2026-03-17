@@ -1,0 +1,46 @@
+.content-card{
+  margin-top: 10%;
+  background-color: #f7e6d1 !important;
+  
+  transition: all 0.5s;
+  height: auto;
+}
+
+.content-card-body{
+  background-color: white !important;
+  height: 50vh;
+  font-family: cursive;
+  
+}
+
+.edit-area{
+  height:40vh;
+  width: 100vh;
+}
+
+.save-content{
+  margin-left: 1em !important;
+  font-size: small !important;
+  background-color: #c48e70 !important;
+  
+}
+
+.save-content:hover{
+  background-color: #d68218 !important;
+}
+
+.detail-div{
+  height: 100vh;
+  background-image: url("../assets/detailBg.jpeg");
+  background-size: 100%;
+}
+
+a{
+  color: black !important;
+  text-decoration: none !important;
+  font-size: 1.5rem;
+}
+
+.content-text{
+  font-size: 2.2rem;
+}

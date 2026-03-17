@@ -1,0 +1,229 @@
+.main-div {
+  background-image: url("../assets/tableBg.jpeg");
+  height: 100vh;
+  position: relative;
+  margin: 0% !important;
+}
+
+.journal-list {
+  margin-top: 2em !important;
+}
+
+table {
+  table-layout: fixed;
+}
+.tbl-header {
+  margin-top: 50px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border: solid 1px #d68218;
+  border-radius: 10px;
+}
+.tbl-content {
+  height: 300px;
+  overflow-x: auto;
+  margin-top: 0px;
+  border: 1px solid #d68218;
+}
+th {
+  padding: 20px 15px;
+  text-align: center !important;
+  font-weight: 500;
+  font-size: 20px;
+  color: #b45801;
+  text-transform: uppercase;
+}
+td {
+  padding: 15px;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 300;
+  font-size: 18px;
+  color: black;
+  border-bottom: solid 1px #d68218;
+}
+
+td:hover {
+  cursor: pointer;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+.journal-table {
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  border-radius: 10px;
+}
+section {
+  margin: 50px;
+}
+
+.table-btn {
+  border-radius: 50% !important;
+  padding: 0.5rem 1rem !important;
+  background-color: #efe7de !important;
+}
+
+.table-btn:hover {
+  background-color: #c48e70 !important;
+  cursor: pointer;
+}
+
+.edit-btn {
+  border-color: #c48e70 !important;
+  background-color: #c48e70 !important;
+}
+
+.edit-btn:hover {
+  background-color: #a16b4d !important;
+}
+
+.tr-custom:hover {
+  background-color: #f7e6d1 !important;
+}
+
+.tag-textbox {
+  width: 30% !important;
+}
+
+.button-div {
+  display: flex;
+  justify-content: start;
+}
+
+.newJournal-btn {
+  background-color: #c48e70 !important;
+  color: black !important;
+  margin-left: 45em !important;
+  height: 2.8em !important;
+}
+
+.newJournal-btn:hover {
+  background-color: #a16b4d !important;
+  color: black !important;
+}
+
+.submit-btn {
+  background-color: #c48e70 !important;
+  color: black !important;
+}
+.submit-btn:hover {
+  background-color: #d68218 !important;
+  color: black !important;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 760px) {
+  .main-div {
+    width: 100%;
+    height: auto; 
+  }
+
+  .journal-list {
+    margin-top: 1em !important; /* Decrease margin for smaller screens */
+  }
+
+  
+  .tbl-content {
+    height: auto; 
+  }
+
+  th,
+  td {
+    padding: 10px; 
+    font-size: 16px; 
+  }
+
+  .button-div {
+    justify-content: center; 
+  }
+
+  .newJournal-btn {
+    margin-left: 0; 
+  }
+
+  .button-div {
+    display: flex !important;
+    justify-content: center !important;
+  }
+  .newJournal-btn {
+    margin-left: 1em !important;
+    width: 8em !important;
+    height: 5em !important;
+    font-size: 0.5rem !important;
+  }
+
+  .tag-textbox {
+    width: 50% !important;
+    font-size: 0.5rem !important;
+  }
+
+  .tag-btn-responsive {
+    width: 6em !important;
+    font-size: 0.5rem !important;
+  }
+}
+
+@media (min-width:768px) and (max-width: 1020px){
+  .main-div {
+    width: 100%;
+    height: auto; 
+  }
+
+  .newJournal-btn {
+    margin-left: 0; 
+  }
+
+  .button-div {
+    display: flex !important;
+    justify-content: center !important;
+  }
+  .newJournal-btn {
+    margin-left: 1em !important;
+    width: 8em !important;
+    height: 5em !important;
+    font-size: 0.5rem !important;
+  }
+
+  .tag-textbox {
+    width: 50% !important;
+    font-size: 0.5rem !important;
+  }
+
+  .tag-btn-responsive {
+    width: 6em !important;
+    font-size: 0.5rem !important;
+  }
+}
+
+@media(min-width: 1020px) and (max-width: 1400px) {
+  .main-div {
+    width: 100%;
+    height: auto; 
+  }
+
+  .newJournal-btn {
+    margin-left: 0; 
+  }
+
+  .button-div {
+    display: flex !important;
+    justify-content: center !important;
+  }
+  .newJournal-btn {
+    margin-left: 1em !important;
+    width: 10em !important;
+    height: 5em !important;
+    font-size: 0.5rem !important;
+  }
+
+  .tag-textbox {
+    width: 50% !important;
+    font-size: 0.5rem !important;
+  }
+
+  .tag-btn-responsive {
+    width: 6em !important;
+    font-size: 0.5rem !important;
+  }
+}
+

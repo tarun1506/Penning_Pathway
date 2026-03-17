@@ -1,0 +1,108 @@
+@import "custom";
+.header {
+  text-align: center;
+}
+
+.cursive{
+  font-family: cursive;
+}
+
+.link {
+  font-size: 1.5rem !important;
+}
+.link:hover {
+  text-decoration: underline;
+}
+
+.contentDiv{
+  height: 500px;
+}
+
+.childDiv{
+  height: 300px;
+}
+
+.fantasy {
+  font-family: fantasy;
+  font-style: italic;
+}
+
+.monospace {
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+.bg{
+  background-color: #f7e6d1;
+}
+
+.iconDiv{
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #de9b46;
+  width: 80px;
+  height: 80px;
+}
+
+.imgContainer{
+  font-size: 3.0rem;
+}
+
+.tagLine{
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.loginButton
+{
+  background-color: #e6b474 !important;
+  color: black !important;
+}
+
+.loginButton:hover
+{
+  background-color: #d68218 !important;
+  color: black !important;
+}
+
+.qouteDiv{
+  display: flex !important;
+  justify-content: center !important;
+  background-image: url("../assets/quotesBg.png")!important;
+  background-size: 300px !important;
+  height: 300px;
+
+}
+
+.qoute{
+  font-size: 20px;
+  background-color: white;
+  width: 500px;
+  height: 120px;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.img-fluid{
+  margin-top: 1rem !important;
+}
+
+
+@media (min-width:320px) and (max-width: 760px) {
+  .tagLine{
+    font-size: 50px !important;
+    padding-top: 3em !important;
+  }
+  .qoute{
+    width: 300px;
+    height: 100px;
+    font-size: 15px;
+  }
+
+  .img-fluid{
+    height: 270px !important;
+  }
+  
+  
+}
